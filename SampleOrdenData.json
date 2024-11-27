@@ -28,3 +28,11 @@ compra de FCI
   "precioUnitario": 0.0317,
   "cantidad": 4
 }
+
+modificar el estado de una orden
+
+{
+  "id": 0,
+  "estadoId": 0
+}
+
