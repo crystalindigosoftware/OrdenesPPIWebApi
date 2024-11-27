@@ -50,63 +50,37 @@ Use el script generado en el archivo [DataBaseScripts](DataBaseScripts.sql) para
 
 <a href="https://imgur.com/a/pOEMhv7"><img src="https://i.imgur.com/5mrrQnG.png" width="500"></a>
 
+# Configuración de la cadena de conexión entre la app y base de datos.
+
+Abra el archivo appsettings.Development.json y modifique el valor "Default" por la correspondiente conexión.
+
 # Ejecución de la aplicación
 
 Puede usar la versión embebida de IIS (Internet Information Services), en caso que Visual Studio pregunte por HTTPS o SSL , no habilitar sino en caso contrario la app no podrá iniciar correctamente.
 
 <a href="https://i.imgur.com/6OTYRkX.png"><img src="https://i.imgur.com/6OTYRkX.png" width="1000"></a>
 
-### Sample Tests
+# Uso de los metodos de la API
+- **Activo**
+  - api/Activo (GET)
+  - /api/Activo/{Id} (GET)
+- **TipoActivo**
+  - api/TipoActivo (GET)
+- **Cuenta**
+  - api/Cuenta (GET)
+- **Estado**
+  - api/Estado (GET)
+- **Orden**
+  - api/Orden (GET)
+  - api/Orden/{Id} (GET)
+  - api/Orden (POST)
+  - api/Orden (PUT)
+  - /api/Orden/{id} (DELETE)
 
-Explain what these tests test and why
+Para probar la creacion de ordenes tiene ejemplos en el archivo archivo [SampleordenData](SampleordenData.json)
 
-    Give an example
+# Autor
 
-### Style test
-
-Checks if the best practices and the right coding style has been used.
-
-    Give an example
-
-## Deployment
-
-Add additional notes to deploy this on a live system
-
-## Built With
-
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
-
-## Authors
-
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+  - **Marcos Gonzalez** - *Senior .Net Developer* - 
+    
+Cualquier comentario o aporte es bienvenido, pueden escribirme a mgonzalezsoft@outlook.com
