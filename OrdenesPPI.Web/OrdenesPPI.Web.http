@@ -1,0 +1,6 @@
+@OrdenesPPI.Web_HostAddress = http://localhost:5210
+
+GET {{OrdenesPPI.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
