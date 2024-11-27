@@ -17,5 +17,6 @@ namespace OrdenesPPI.Core.Views
         public decimal Precio { get; set; }
         public string Estado { get; set; }
         public decimal MontoTotal { get; set; }
+        public string Operacion { get; set; }
     }
 }
