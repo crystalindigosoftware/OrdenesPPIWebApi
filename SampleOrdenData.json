@@ -1,0 +1,30 @@
+
+compra de acciones
+
+{
+  "cuentaId": 2,
+  "activoId": 3,
+  "operacion": "C",
+  "precioUnitario": 329.04,
+  "cantidad": 4
+}
+
+compra de bono
+
+{
+  "cuentaId": 1,
+  "activoId": 7,
+  "operacion": "C",
+  "precioUnitario": 336.1,
+  "cantidad": 2
+}
+
+compra de FCI
+
+{
+  "cuentaId": 3,
+  "activoId": 9,
+  "operacion": "C",
+  "precioUnitario": 0.0317,
+  "cantidad": 4
+}
