@@ -44,23 +44,17 @@ Si bien instalar los paquetes por scripts agiliza la creación del proyecto, en 
 
 # Despligue de base de datos
 
-A step by step series of examples that tell you how to get a development
-environment running
+Use el script generado en el archivo [DataBaseScripts](DataBaseScripts.sql) para implementar la base de datos con las tablas e información completa para probar la aplicación.
 
-Say what the step will be
+# Diseño de base datos
 
-    Give the example
+<a href="https://imgur.com/a/pOEMhv7"><img src="https://i.imgur.com/5mrrQnG.png" width="500"></a>
 
-And repeat
+# Ejecución de la aplicación
 
-    until finished
+Puede usar la versión embebida de IIS (Internet Information Services), en caso que Visual Studio pregunte por HTTPS o SSL , no habilitar sino en caso contrario la app no podrá iniciar correctamente.
 
-End with an example of getting some data out of the system or using it
-for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
+<a href="https://i.imgur.com/6OTYRkX.png"><img src="https://i.imgur.com/6OTYRkX.png" width="1000"></a>
 
 ### Sample Tests
 
